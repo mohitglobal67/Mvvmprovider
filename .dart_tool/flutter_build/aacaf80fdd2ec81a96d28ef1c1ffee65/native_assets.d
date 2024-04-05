@@ -1,0 +1,1 @@
+ /Users/libuthomas/Downloads/Mvvm-Architecture-With-Provider-with-Rest-Api-main\ 4/.dart_tool/flutter_build/aacaf80fdd2ec81a96d28ef1c1ffee65/native_assets.yaml: 
