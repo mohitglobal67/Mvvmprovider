@@ -29,7 +29,8 @@ class _HomeViewState extends State<HomeView> {
           SizedBox(width: 20,)
         ],
       ),
-      body: ChangeNotifierProvider<HomeViewViewModel>(
+      body: 
+      ChangeNotifierProvider<HomeViewViewModel>(
         create: (BuildContext context) => HomeViewViewModel(homeRepository: getIt())..fetchMoviesListApi(),
         child: Consumer<HomeViewViewModel>(
             builder: (context, value, _){

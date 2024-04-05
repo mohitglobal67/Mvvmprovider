@@ -1,5 +1,6 @@
 
 import 'package:mvvm/data/response/status.dart';
+import 'package:mvvm/model/branch_Model.dart';
 
 class ApiResponse<T> {
 
@@ -22,6 +23,8 @@ class ApiResponse<T> {
   String toString(){
     return "Status : $status \n Message : $message \n Data: $data" ;
   }
+
+  map(BranchDetailsModel Function(dynamic json) param0) {}
 
 
 }
